@@ -1,0 +1,8 @@
+What is CSS?
+Cascading Style Sheet
+Where we style our web page.
+
+Css are of three Types:
+1. Inline : Here we write CSS within the HTML tag.
+2. Internal : Here we write CSS in our HTML file itself.
+3. External : Here we create and external css file and link with our HTML file.
