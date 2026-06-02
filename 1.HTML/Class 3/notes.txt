@@ -1,0 +1,16 @@
+Table
+: Combination of rows & columns.
+: table tag --> tr tag (table row) --> td/th tag (Column Data)
+
+Diffrence b/w td & th?
+Both the tags are same, but th is displayed as heading type & td is displayed normally.
+
+Attributes:
+1. Border : It is used for displaying the border
+2. Cellspacing : It means space b/w outer cell & inner cell.
+3. Cellpadding : It means space b/w cell & content.
+
+Column Merge / Horizontal Merge : colspan
+Row Merge / Vertical Merge : rowspan
+
+Form

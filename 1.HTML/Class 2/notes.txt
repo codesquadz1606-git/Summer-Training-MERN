@@ -1,0 +1,37 @@
+What is Linking?
+Linking means to link any internal page or any url with our webpage.
+
+It is done by a tag (anchor tag).
+href: hyperlink reference
+target:_blank : it means opening the ppage in a new tab.
+
+What is Iframe?
+It is a sort of window that opens up in our webpage.
+
+It is used to embed a map or a youtube video.
+
+What is Marquee tag?
+It is used for an moving text.
+if we have to manage the speed : scrollamount attribute.
+It has four directions : up,left,right,down
+
+What is Block Tag & Inline Tag?
+Block tag : It means it takes a whole line space and doesn't matter how much content is their.
+
+Inline Tag : It means it takes space according to the content.
+
+What are the semantic tags?
+b tag , u tag , i tag , pre tag , sup tag , sub tag , time tag , dl-dt-dd tag
+
+What is Font Tag?
+
+What is List?
+List are of two types : 
+1. Ordered List
+    It is denoted by ol tag
+    Types : 1,i,I,A,a
+2. Unordered List
+    It is denoted by ul tag
+    Types : square , circle , disc
+
+The list item in both is denoted by li tag.

@@ -1,0 +1,43 @@
+Now we have created our first html file.
+
+Now , we will write up the biolerplate of the HTML.
+
+What is meta tags?
+--> meta tags is used for SEO (search engine optimisation)
+--> meta tag is used for responsive design.
+--> "UTF-8" it is used for encoding , like making browser understand the HTML.
+
+Html only understand the text & tag.
+tag : <open></close>
+
+Heading Tags : h1 to h6
+h1 is largest & h6 is smallest.
+
+Break Tags : br tag & hr tag
+br tag means break line tag
+hr tag means horizontal line tag.
+
+HTML entities : 
+&nbsp; : non breaking space;
+&amp;
+&copy;
+&reg;
+&trade;
+&euro;
+&lt;
+&gt;
+&quot;
+&quot;
+&apos;
+
+Media Tags : To display any multimedia on our webpage.
+1. img tag
+    src: src of the picture
+    alt: alternative text
+2. audio tag
+    controls(important)
+3. video tag
+    controls(important)
+    autoplay : plays automatically
+
+Attributes : A property that enhamce any tag is known as  attributes.
