@@ -1,0 +1,31 @@
+Css Selectors :
+4 Type of selectors : id , class , tag , universal.
+
+where id is denoted by # , it must be unique.
+class is denoted by .(dot) , it can be used multiple times.
+tag is denoted by tagname itself
+universal is denoted by * , it means overall.
+
+Borders
+    border-width , border-color , border-style
+    border-curveness : border-radius
+
+Displays : 5 Types
+1. inline
+2. block
+3. inline-block
+
+top,left,bottom,right
+
+Positions : 5 Types
+1. Static (Default Position) : We cannot move any object from one place to another.
+2. Absolute : Here the object leaves his respective place and move from its parent position.
+3. Relative : Here the object do not leaves his space and move from his own position.
+4. Fixed : It will fix at one place and leaves his place.
+5. Sticky : It will not leave his space but will get stick at one place.
+
+Hover & Transition
+
+Hover means transfering from one state to another state 
+
+Transition : Here it takes some time to transfer another state.

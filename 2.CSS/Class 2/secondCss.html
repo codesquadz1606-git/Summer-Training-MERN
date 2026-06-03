@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Universal means applied on entire body */
+    *{
+        background-color: black;
+        color: white;
+    }
+
+    /* Id can only be used once. */
+    #unique{
+        width: 200px;
+        height: 200px;
+        background-color: green;
+    }
+
+    /* Class can be multiple times  */
+    .color{
+        color: blue;
+    }
+
+    /* In tagname it will be applicable to all the tags. */
+    p{
+        font-size: 30px;
+    }
+
+
+    .box-1{
+        width: 300px;
+        height: 300px;
+
+        /* border-width: 10px;
+        border-color: red;
+        border-style: solid; */
+        /* border-style: dashed; */
+        /* border-style: dotted; */
+
+        /* Shorthand */
+        border: 10px solid red;
+
+        /* border-radius: 30px; */
+        /* border-top-left-radius: 30px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 0px; */
+
+        /* Shorthand : Clockwise*/
+        border-radius: 30px 0px 30px 0px;
+    }
+
+    .para{
+        background-color: green;
+        /* Here we have converted a block tag into inline tag */
+        display: inline;
+    }
+
+    span{
+        background-color: blue;
+        /* Here we have converted an inline tag into block tag */
+        display: block;
+    }
+
+    .new{
+        background-color: yellow;
+        /* 
+            Now this is inline but only for the first line as soonas content extend to second line it is block tag.
+        */
+        display: inline-block;
+    }
+
+
+    .sq-1{
+        width: 300px;
+        height: 300px;
+        background-color: yellow;
+
+        top: 40px;
+        left: 50px;
+
+        /* position: absolute; */
+        /* position: relative; */
+        /* position: fixed; */
+        /* position: sticky; */
+    }
+
+    .con-1{
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+/* 
+        transition-property: all;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out; */
+
+        /* Shorthand */
+        transition: all 2s ease-in-out;
+    }
+
+    .con-1:hover{
+        background-color: yellow;
+        border-radius: 30px;
+        border: 10px solid red;
+    }
+    
+</style>
+<body>
+    Hello
+
+    <div id="unique"></div>
+
+    <div class="sq-1"></div>
+    <p class="color">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit magni voluptatem consectetur aliquam architecto. Eos excepturi ab inventore quam labore?</p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem eveniet beatae asperiores repellendus esse placeat animi aliquam cumque consectetur repellat tenetur, labore odio ipsa totam ipsum. Repellendus, excepturi eveniet? Labore.
+    </p>
+
+    <div class="color">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus alias quo exercitationem velit explicabo vel rerum excepturi. Ratione ex reiciendis cupiditate non maxime delectus porro, quibusdam aliquid sapiente voluptatem exercitationem asperiores in ducimus nostrum corrupti officiis praesentium, minima aut fuga itaque ea. Excepturi, accusantium in ullam praesentium voluptatum maiores reprehenderit!
+    </div>
+    
+    <hr>
+
+    <div class="box-1"></div>
+
+    <hr>
+    <!-- In css display helps us to manipulate the display of any tag. -->
+
+    <!-- p tag is block tag -->
+    <p class="para">Hello</p>
+
+    <!-- span tag is inline tag -->
+    <span>Hii Everyone</span>
+
+    <!-- Div tag is block tag -->
+    <div class="new">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium reiciendis illum molestias, corrupti perferendis ab accusantium alias ex veritatis velit laborum totam nulla officiis unde! Ayush
+    </div>
+
+    <hr>
+
+    <div class="con-1"></div>
+</body>
+</html>
