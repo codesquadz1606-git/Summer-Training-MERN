@@ -1,0 +1,20 @@
+media Query
+    Used for responsive design
+    Multiple media(screens) create karte h
+
+    1440px above : Laptop , TV
+    1280 -- 1439px : 13 inch laptops
+    960 -- 1280px : tablet , ipad
+    540px -- 960px : All the Mobile phones.
+
+pseudo Classes & variables
+1. :focus
+2. :first-child
+3. :nth-child
+4. :checked
+
+flex Properties
+: flex-grow
+: order
+: flex-flow
+: flex-shirnk
