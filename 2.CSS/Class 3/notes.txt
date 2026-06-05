@@ -1,0 +1,15 @@
+flex : 1-D (row)
+    gap
+    justify-content
+    align-items
+    flex-wrap
+    flex-direction
+
+animation
+    As soon as page starts it is applicable.
+
+
+
+
+shift+alt+downKey/upKey : it will make a copy
+alt+downKey/upKey : move up or down
