@@ -1,0 +1,28 @@
+JS stands for JavaScript
+--> No Boilerplate
+--> No ; required
+--> It is case sensitive
+
+Js are of three types:
+--> Inline : Here we write JS within our HTML tag.
+
+--> Internal : Here we write JS within our HTML file.
+
+--> External : In this we have to create a new file and write Js in that. To run external js we have two methods
+1. With node : We have to install node : node filename(Terminal Pa)
+2. With Browser
+
+Chapter 1: Introduction To JS
+Concept:
+    i. What is variable?
+    ii. What is let , var & const ? Diffrence b/w them? (In Interview Must Asked Question)
+    iii. What is Template Literal?
+    iv. What is User-input? What is TypeCasting?
+
+Chapter 2 : Operators
+    Types:
+        i. Arthmetic (+,-,*,/ ,%, **)
+        ii. Relational (<,>,<=,>=,==,===,!=)
+        iii. Logical (&& , || , !)
+        
+

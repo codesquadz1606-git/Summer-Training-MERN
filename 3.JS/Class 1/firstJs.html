@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Inline JS -->
+    <button onclick="console.log('Inline JS')">Click Here</button>
+    
+    <!-- Browser : External JS -->
+    <script src="script.js"></script>
+
+    <!-- Internal JS -->
+    <script>
+        // console.log("Internal JS");
+
+        // What is Variable?
+        // Variable is container that store some value at the memory is known as Variable.
+
+        // var_name=value;
+        // Should not start with number or any special character.
+        // Should not be any keyword of JS.
+
+        // a=10;
+        // console.log(a)
+        
+        // let a=10; // ES 6 version.
+        // Here in let we can re-intialize the value but we cannot re-declare the value.
+
+        // let a=100; // re-declare
+        // a=100 // re-intialize
+        // console.log(a)
+
+        // var b=20;
+        // Here we can re-intialize as well as re-declare the value.
+        // var b=200; // re-declare
+        // b=200; // re-intialize
+        // console.log(b)
+
+        // const c=30;
+        // Here in const we cannot re-intialize or re-declare any value , here value is fixed.
+        // const c=300
+        // c=300;
+
+        // let first_name="Shubham"
+        // let last_name="Singh"
+        // let age=30
+
+        // Not a professional way.
+        // console.log("My name is",first_name,last_name,"My age is",age);
+
+        // Template Literal : `String ${var_name}`(back tick)
+        // console.log(`Hello my name is ${first_name} ${last_name}. My age is ${age}`)
+
+        // What is Data Type?
+        // Which type of value is stored in a variable.
+        // Number
+        // String : It means any character in "".
+        // Boolean : true or false
+        // undefined
+        // object
+
+        // let a=100
+        // let b=98.78
+        // let c="Ayush123"
+        // let d=true;
+        // let e;
+        // let f=null
+
+        // What is user-input ? What is TypeCasting?
+
+        // for user-input we use : prompt().
+        // let a=prompt("Enter a")
+        // let b=prompt("Enter b")
+        // console.log(a+b)
+
+        // Now I have to change the type : TypeCasting : parseInt() & parseFloat()
+        // let a=parseFloat(prompt("Enter a"))
+        // let b=parseFloat(prompt("Enter b"))
+        // console.log(a+b)
+
+        // Operators : Opertion b/w two or more operands that is operators.
+
+        // Arthmetic
+        // let num1=parseFloat(prompt("Enter Num 1"))
+        // let num2=parseFloat(prompt("Enter Num 2"))
+
+        // console.log(num1+num2)
+        // console.log(num1-num2)
+        // console.log(num1*num2)
+        // console.log(num1/num2) // Quotient
+        // console.log(num1%num2) // Remainder
+        // console.log(num1**num2) // Power a raise to the power b.
+
+        // Relational Operator : Finds the relation b/w two or more operands.
+        // console.log(num1<num2)
+        // console.log(num1>num2)
+        // console.log(num1>=num2)
+        // console.log(num1<=num2)
+        // console.log(num1==num2)
+        // console.log(num1!=num2)
+
+        // Diffrence b/w == & ===?
+        // let a=10; // number
+        // let b="10"; // string
+        // console.log(a==b); // true because it only compares the value.
+        // console.log(a===b); // false because it compare value as well as type of value
+
+        // Logical Operator : Here we have 3 sub-operators which is applicable on two or more conditions
+        
+        let num1=10 , num2=25 , num3=50;
+        // i. && operator : Sees whether all the condition is true or not , if single condition is false , then result is false.
+        // console.log(num1<num2 && num2>num3);
+        // Live example : Login Page (where username & password both must be true)
+            
+        // ii. || operator :  Here only one condition must be true, if single condition is true then result is true.
+        // console.log(num1<num2 || num2>num3);
+        // Live example : Phone FingerPrints
+
+        // iii. !! operator : It reverse the decision.
+        console.log(!(num1<num2 || num2>num3));
+
+            
+    </script>
+</body>
+</html>
