@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // String
+        // let name="Ayush";
+        // console.log(typeof(name))
+        // console.log(name.length)
+        // console.log(name[0]) // Accessing the index
+        // console.log(name[1])
+
+        // for(let i=0;i<name.length;i++){ // 0 true 1 true
+        //     console.log(name[i]) // name[0] name[1]
+        // }
+
+        let fullname="Ayush Srivastava"
+        // charAt()
+        // console.log(fullname.charAt(6))
+
+        // at() : we can access data positive & negative indexing
+        // console.log(fullname.at(4))
+
+        // concat()
+        // let fname="Harsh";
+        // let lname="Singhal"
+        // let fullname=fname.concat(" ",lname)
+        // console.log(fullname)
+
+        // includes()
+        // console.log(fullname.includes(" "))
+
+        // startsWith()
+        // console.log(fullname.startsWith("a"))
+
+        // endsWith()
+        // console.log(fullname.endsWith("A"))
+
+        // indexOf() : It only sees the first occurence.
+        // console.log(fullname.indexOf("a"))
+
+        // lastIndexOf()
+        // console.log(fullname.lastIndexOf("a"))
+
+        // toUpperCase()
+        // console.log(fullname.toUpperCase())
+
+        // toLowerCase()
+        // console.log(fullname.toLowerCase())
+
+        // slice(start,end-1) : To cut some part of string.
+        // console.log(fullname.slice(0,7))
+
+        // trim()
+        // let str="     Ayush     "
+        // console.log(str.trim())
+        // console.log(str.trimStart())
+        // console.log(str.trimEnd())
+
+        // repeat()
+        // console.log(fullname.repeat(3))
+
+        // replace(elemnt,what to add)
+        // console.log(fullname.replace("Srivastava","Kumar"))
+
+        // -----------------------------------------------
+
+        // Array 
+        // let arr=[10,20,30,40,"Ayush",true,100]
+        // console.log(arr)
+
+        // for(let i=0;i<arr.length;i++){
+        //     console.log(arr[i])
+        // }
+
+        // for-of-loop
+        // for(let item of arr){
+        //     console.log(item)
+        // }
+
+        // console.log(arr.length)
+
+        // Functions & Methods
+        // Add & Removing : push , pop , shift , unshift.
+        
+        // arr.push(100)// add at the end of the arr
+        // arr.pop() // remove from the end of the array.
+        // arr.shift() // remove from the starting.
+        // arr.unshift(300) // add from the starting
+
+        // splice(start,noOfElement,addElements...) : Add anywhere & remove from anywhere.
+
+        // arr.splice(2,2,"Udit","Sanjay") // where we can add & remove the element.
+        // arr.splice(2,2);// Only removed
+        // arr.splice(2,0,"Kuldeep")
+
+        // arr.sort()
+        // arr.reverse()
+        // console.log(arr.slice(0,4))
+        // console.log(arr)
+
+        // Advance Methods
+        // map,filter,reduce,find
+        
+        // map(callback)
+        // what is callback function?
+        // It is function which is inside another function waiting for execution.
+        let arr=[10,20,30,40,100]
+        
+        // arr.map(function(el){
+        //     console.log(el)
+        // })
+
+        // let newarr=arr.map((el)=>el*2)
+        // let newarr=arr.map((el)=>{
+        //     return el*2
+        // })
+
+        // console.log(newarr)
+        
+        // filter(callback)
+        // let newarr=arr.filter((el)=>{
+        //     return el%4==0;
+        // })
+        // console.log(newarr)
+
+        // reduce(callback,accumaltor) : this return the single value
+        // Sum of array
+        // let sum=arr.reduce((acc,cur)=>{
+        //     return acc+cur // every time accumaltor update its value.
+        // },0)
+
+        // console.log(sum)
+
+        // find(callback) : It also returns us the single value.
+
+        // let data=arr.find((el)=>el>20);
+        // console.log(data)
+
+        // flat() , Array.isArray() , Array.of
+
+        // Flatten Array
+        let newArr=[1,2,3,[4,[5,6,7,[8,9]]]];
+        // console.log(newArr.flat(3))
+
+        // console.log(Array.isArray([10,12])) // identifies whether it is array or not
+
+        // console.log(Array.of(10,12,14)) // it converts elements into the array.
+    </script>
+</body>
+</html>

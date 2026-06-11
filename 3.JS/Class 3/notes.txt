@@ -1,0 +1,7 @@
+String : A set of characters that is stored inside "".
+It is based on zero based indexing.
+Where data stores from 0th index to length-1 index
+
+Array (Most Important) : It is our first data structure where we store value at continious memory.It can store any type of value.
+
+It is also based on zero based indexing.
