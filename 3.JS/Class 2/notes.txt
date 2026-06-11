@@ -1,0 +1,49 @@
+Unary Operator : Increment(++) & Decrement(--)
+    It will increase or decrease by 1.
+    Pre & Post
+Assignment Operator : =,+=,-=,*=,/=,%=,**=
+Ternary Operator : Based on condition (Very Important in React)
+
+
+Conditional Statement?
+    --> if else if else.
+    --> switch case
+
+Control flow statement : Loop
+Loop is a iteration that iterate on a condition until it is true.
+    --> for 
+    --> while
+    --> do-while
+    --> forOf
+
+    Array Loops
+    --> forEach
+    --> map
+    --> filter
+    --> reduce
+    --> some
+    --> every
+
+What are functions?
+Functions are the block of code which is defined for a certain work.It is only executed when it is called.
+
+function func_name(){ // declare & define
+    code
+}
+
+iife(immediate invoke function expression) function 
+
+Parameter & Argument Function
+
+Return Keyword : Returning the value to the function itself.
+
+Default Parmeter 
+
+Function Expression
+
+Arrow Functions
+
+What are the scopes?
+--> global
+--> Block
+--> lexical : closures
