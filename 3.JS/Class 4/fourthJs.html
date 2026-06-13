@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="unique">
+        Hello Everyone
+    </div>
+
+    <div class="classEl">
+        Hello This is class1
+    </div>
+    <div class="classEl">
+        Hello This is class2
+    </div> -->
+
+
+    <h1>Hello Everyone</h1>
+
+    <script>
+        // Spread Operator & Rest Operator (100% interview Question)
+
+        // ...(spread & rest)
+        // let arr=[10,20,30,40,50,[60,70,80]]
+        // let newArr=[...arr]; // Spread Operator : Copy the array
+
+        // let newArr=arr; // Problem : That is copies on the reference , and it gets change when their is change in previous array. 
+
+        // arr[1]=100;
+        // console.log(arr)
+        // console.log(newArr)
+
+        // Shallow Copy & Deep Copy (100% Interview asked Question)
+        let arr=[10,20,30,40,50,[60,70,80]]
+        // Shallow Copy : It do not copy on the reference but the nested elements are copied on the reference
+        // let arr1=[...arr];
+        
+        // arr[0]=100
+        // arr[5][1]=100;
+        // console.log(arr[5][1])
+
+        // console.log(arr)
+        // console.log(arr1) // Shallow Copy
+
+        // Deep Copy : In this all the levels are not copied on the reference;
+        
+        // let arr1=JSON.parse(JSON.stringify(arr))
+        
+        // arr[0]=100
+        // arr[5][1]=100;
+
+        // console.log(arr)
+        // console.log(arr1)
+
+        // Objects
+        // In this data is stored in key value pairs
+
+        // Data is unordered manner.
+        
+        let obj={
+            name:"Shubham",
+            city:"Delhi",
+            "hello world" : "hii" // not allowed
+        }
+
+        // console.log(obj["hello world"])
+
+        // How to access any particular key?
+        // console.log(obj.name)
+        // console.log(obj["city"])
+
+        // How we can edit any key in a obje or add any new key in a object
+
+        // obj.name="Shivam" // if key gets matched the obj will get edit
+
+        // obj.age=23 ; // if key is not matched then it will create new key in a object.
+
+        // console.log(obj.subject)
+
+        // Objects of objects
+
+        // let newObj={
+        //     subjects:{
+        //         s1:"React",
+        //         s2:"Node",
+        //         s3:"Express"
+        //     }
+        // }
+
+        // console.log(newObj.subjects.s3)
+
+        // console.log(Object.keys(newObj.subjects))
+        // console.log(Object.values(newObj.subjects))
+
+        // let data=Object.assign({},obj,newObj)
+
+        // DOM : Document Object Model
+        // How we can access any HTML element?
+
+        // Method 1: getElementById , getElementByClassName, getElementByTagname
+
+        // Method 2: querySelector, querySelectorAll
+
+        // console.log(document)
+
+        // let id=document.getElementById("unique")
+        // console.log(id)
+
+        // let classElement=document.getElementsByClassName("classEl")
+        // console.log(classElement)
+
+        // let tagname=document.getElementsByTagName("div")
+        // console.log(tagname)
+
+        // let el=document.querySelector("div")
+        // console.log(el) // this only access one element 
+
+        // How we can edit any element?
+        // innerText & innerHtml
+
+        // let h1=document.querySelector("h1")
+        // h1.innerText="<u>How are you?</u>" // in this it read all thing as a text.
+
+        // h1.innerHTML="<u>How are you?</u>" // in this it read tag as tag & text as a text.
+        // console.log(h1.innerText)
+
+        // How we can create any element in HTML through JS?
+        // createElement()
+
+        let para=document.createElement("p")
+        para.innerText="THis is my tag created."
+
+        // append , prepend , appendChild(same as append) , insertAdjancent : afterbegin, beforebegin , afterend , beforeend
+
+        let body=document.querySelector("body")
+        // body.append(para) // add at the end
+        body.prepend(para) // add at the start
+        
+        // let heading=document.querySelector("h1")
+        // heading.insertAdjacentElement("beforeend",para)
+
+        // Styles in JS
+        // para.style.fontSize="3rem"
+        // para.style.fontWeight="bolder"
+        // para.style.backgroundColor="green"
+        // para.style.padding="30px"
+
+    </script>
+</body>
+</html>
