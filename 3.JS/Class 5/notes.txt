@@ -1,0 +1,13 @@
+Remaining Topics:
+DOM : getter & setter , classList
+    getAttribute : We will get the value of the attribute.
+    setAttribute : We will set the value of any attribute.
+
+    ClassList : add , remove , contains , toggle
+
+Dom Events : click , dblclick , keyboard events ,  
+    1. onclick : function run kardu
+
+Form Handling : submit
+Adv JS
+Mini Project : Ecommerce Website build

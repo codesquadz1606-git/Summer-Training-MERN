@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .bg {
+        background-color: red;
+    }
+
+    .color {
+        color: blue;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .box {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        position: absolute;
+        bottom: 0px;
+    }
+</style>
+
+<body>
+    <!-- <div class="bg">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio et facere distinctio reiciendis, doloremque natus dignissimos cupiditate nulla rem delectus illo, aut omnis dicta officia. Eligendi delectus iure at deserunt velit? Iusto unde enim id sit, minima vel, voluptate magnam, laudantium quisquam saepe voluptas? Repellendus in deserunt aut minima, ab ipsam dignissimos animi labore dolores sequi nostrum fugiat quidem molestias, rerum rem nemo! Alias, dolorem repellendus! Id odio magnam dolorem consectetur earum eligendi! Eaque alias voluptate fuga iste ipsa. Temporibus, non, eius molestias cupiditate laudantium qui ullam culpa ipsum voluptate ducimus explicabo quidem et ipsa incidunt facere architecto quisquam. Id.
+    </div> -->
+
+    <!-- <p class="para">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, autem suscipit dicta aliquid at fugit natus, tempore blanditiis perferendis maxime est! Minus quaerat natus sint aut, quasi corrupti, similique explicabo ullam vel, facilis doloribus iure porro laborum necessitatibus magnam optio vero. Sed tempore, aspernatur saepe cupiditate dolores cum minus, dolorem possimus laboriosam magni corrupti consequatur recusandae nisi, voluptatum dolore suscipit inventore. Itaque consequatur iure fugit consectetur enim eius assumenda ex neque. Aut rem dolores tempore perspiciatis commodi quas eius earum itaque optio. Aliquid ad error vitae voluptatum nam magni, accusamus reiciendis enim culpa eaque animi ipsam reprehenderit. A, odio distinctio.
+    </p> -->
+
+    <!-- <button onclick="greet()">
+        Click here
+    </button> -->
+    <!-- <button class="btn">
+        Hide Para
+    </button> -->
+
+    <!-- <input type="text" class="inp">
+    <button class="show">Show Data</button> -->
+    <!-- <div class="box"></div> -->
+
+
+    <form action="">
+        <label for="">First Name :</label>
+        <input type="text" name="firstname" class="fname">
+        <br>
+        <label for="">Last Name :</label>
+        <input type="text" name="lastname" class="lname">
+        <br>
+        <input type="submit">
+    </form>
+    <script>
+        // let div=document.querySelector("div")
+        // console.log(div.getAttribute("class"))
+        // console.log(div.getAttribute("style"))
+
+        // setAttribute(attribute name , attribute value)
+
+        // div.setAttribute("class","color") // because setAttribute always overlaps previous values.
+
+        // div.classList.add("color") // it adds the the property
+        // div.classList.remove("bg")
+        // console.log(div.classList.contains("bg"))
+
+        // div.classList.toggle("bg") // act like a switch , removed --> Add , Added -> Remove.
+
+        // div.classList.toggle("bg")
+
+        // function greet(){
+        //     alert("Hello Everyone")
+        // }
+
+        // let btn=document.querySelector(".btn")
+        // addEventListener(event,callback)
+
+        // btn.addEventListener("dblclick",greet)
+        // let para=document.querySelector(".para")
+        // function updatePara(){
+        //     para.classList.toggle("hide"); // class add the remove
+
+        //     // Ternary Operator
+        //     para.classList.contains("hide") ? btn.innerText="Show Para" : btn.innerText="Hide Para";
+        // }
+
+        // btn.addEventListener("click",updatePara)
+
+        // Keyboard Event & Input data handling
+        // Keyboard Event : keypress, keyup, keydown
+
+        // let inputField=document.querySelector(".inp")
+
+        // let show=document.querySelector(".show")
+        // let box=document.querySelector(".box")
+
+        // w : for top
+        // d : for right move
+        // a : for left move
+
+        // inputField.addEventListener("keydown",(e)=>{
+        //     console.dir(e.key)
+        //     if(e.key=="w"){
+        //         box.style.top="100px"
+        //     }
+
+        //     else if(e.key=="d"){
+        //         box.style.left="100px"
+        //     }
+        // })
+
+        // Input Data handling.
+        // show.addEventListener("click",()=>{
+        //     console.dir(inputField)
+        //     console.log(inputField.value)
+        // })
+
+        // Form Data handling
+        // When form submits the data it automatically gets refresh.
+
+        let form = document.querySelector("form")
+        let fname = document.querySelector(".fname")
+        let lname = document.querySelector(".lname")
+
+        // Array mae store karwa do.
+        // Array of Objects
+        // [
+            // {},
+            // {} , .......
+        // ]
+
+        let alldata=[]
+        let data={}
+
+        form.addEventListener("submit", (e) => {
+            e.preventDefault(); // stops the refresh of the page.
+
+            console.dir(e)
+            data[fname.name]=fname.value
+            data[lname.name]=lname.value
+
+            alldata.push(data)
+            console.log(alldata)
+        })
+
+    </script>
+</body>
+
+</html>
