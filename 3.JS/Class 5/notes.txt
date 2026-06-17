@@ -9,5 +9,3 @@ Dom Events : click , dblclick , keyboard events ,
     1. onclick : function run kardu
 
 Form Handling : submit
-Adv JS
-Mini Project : Ecommerce Website build

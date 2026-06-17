@@ -1,0 +1,15 @@
+To link components we use two steps:
+step 1: export
+step 2: import
+
+Export are of two types:
+default : it is used only once in a component
+named : it is exported in {}.
+
+Why we use {}?
+In react JS(variables) is called in {}.
+
+Pillars of react? (Interview)
+--> Props : Sharing data from one component to another, from parent to child
+--> State
+--> Hooks
