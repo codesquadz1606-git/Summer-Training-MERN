@@ -1,0 +1,28 @@
+How to write CSS in React?
+    Inline
+    Variable
+    External
+
+What is State & Click Events?
+    State is one of the pillar of react , where we manage all the value of the component.
+
+    [current , setCurrent]=useState() hook.
+
+    bound dispatch setState : This helps us to set the new value of the state.
+
+What is Conditional Rendering?
+    (condition)?statement:statement;
+
+What is Wrapper Element?
+state && component : if state is true then only component is visible.
+
+What is useEffect Hook?(Most asked question in interview.)
+useEffect is used for handling side effects of the pages.
+
+Their are three use cases:
+i. without any dependency
+ii. with empty array
+iii. with dependency
+
+Syntax:
+useEffect(callback,dependency)
