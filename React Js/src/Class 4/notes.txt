@@ -1,0 +1,12 @@
+Step 1 : npm i react-router-dom
+Step 2 : createBrowserRouter([{},{},{}])
+Step 3 : Make all the components & add them in path.
+Step 4 : RouterProvider
+
+React is Single Page Application : <Link>
+
+What is outlet?
+It is used for child elements and used in parent component.
+
+
+usenavigate is also used for single page application.
