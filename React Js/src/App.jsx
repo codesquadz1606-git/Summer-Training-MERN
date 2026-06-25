@@ -11,6 +11,7 @@ import Second3 from './Class 2/Second3'
 import Third from './Class 3/Third'
 import Third1 from './Class 3/THird1'
 import Fourth from './Class 4/Fourth'
+import Fifth from './Class 5/Fifth'
 
 function App() {
   let name="Suresh";
@@ -41,7 +42,9 @@ function App() {
       {/* <Third/> */}
       {/* <Third1/> */}
 
-      <Fourth/>
+      {/* <Fourth/> */}
+
+      <Fifth/>
     </>
   )
 }
