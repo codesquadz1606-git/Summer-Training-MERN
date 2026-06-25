@@ -12,6 +12,9 @@ import Third from './Class 3/Third'
 import Third1 from './Class 3/THird1'
 import Fourth from './Class 4/Fourth'
 import Fifth from './Class 5/Fifth'
+import Sixth from './Class 6/Sixth'
+import Sixth1 from './Class 6/Sixth1'
+import Stopwatch from './Class 6/Stopwatch'
 
 function App() {
   let name="Suresh";
@@ -44,7 +47,11 @@ function App() {
 
       {/* <Fourth/> */}
 
-      <Fifth/>
+      {/* <Fifth/> */}
+
+      {/* <Sixth/> */}
+      {/* <Sixth1/> */}
+      <Stopwatch/>
     </>
   )
 }
