@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { createContext, lazy, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
@@ -15,6 +15,12 @@ import Fifth from './Class 5/Fifth'
 import Sixth from './Class 6/Sixth'
 import Sixth1 from './Class 6/Sixth1'
 import Stopwatch from './Class 6/Stopwatch'
+import Seventh from './Class 7/Seventh'
+import ThemeProvider from './Class 7/ThemeUpdater/ThemeContext'
+import Home from './Class 7/ThemeUpdater/Home'
+import LazyLoading from './Class 7/LazyLoading'
+
+export let UserContext= createContext() // step 1.
 
 function App() {
   let name="Suresh";
@@ -26,6 +32,10 @@ function App() {
     city :"Noida"
   }
 
+
+  let [user,setUser]=useState("Ayush");
+
+  
   return (
     <>
       {/* <h1>Hello</h1> */}
@@ -51,7 +61,20 @@ function App() {
 
       {/* <Sixth/> */}
       {/* <Sixth1/> */}
-      <Stopwatch/>
+      {/* <Stopwatch/> */}
+
+      {/* Step 2 : Provide the context */}
+      {/* <UserContext.Provider value={{user,setUser}}>
+          <Seventh/>
+      </UserContext.Provider> */}
+
+      {/* <ThemeProvider>
+        <Home/>
+      </ThemeProvider> */}
+      {/* <Home/> */}
+
+      {/* <Dashboard/> */}
+      <LazyLoading/>
     </>
   )
 }
