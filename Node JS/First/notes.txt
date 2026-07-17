@@ -1,0 +1,20 @@
+How to intialize the node js project?
+Modules : How to create the modules?
+Server : How to create server?
+File system
+API's create
+
+Step 1 : npm init -y
+
+Call Stack : Synchronous Code
+Micro task : Promises Apis ..
+Macro task : nextTick ,...
+Timers : setTimeout ,....
+Other codes 
+
+
+package : nodemon
+
+We have two modules :
+require : commonjs
+import : module
